@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Node.js
+node_modules/
+
+# React build files
+build/
+
+# Log files
+*.log
+
+# SQLite Database
+patients.db
+
+# IDE configurations
+.vscode/
+.idea/
