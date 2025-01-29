@@ -1,4 +1,5 @@
 # Medicine App
+##(AI-Powered Personalized Medicine Recommendation System)
 
 The **Medicine App** is a full-stack application designed to manage **medicine prescriptions**, **patient data**, and **ML-powered predictions**. It consists of:
 - A **Flask backend** for handling API requests, integrating machine learning models, and managing patient data.
