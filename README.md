@@ -88,3 +88,160 @@ The frontend is a **React.js** web application that provides a user-friendly int
 1. Navigate to the `frontend` directory:
    ```bash
    cd frontend
+
+Install Node.js dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the React app:
+
+bash
+Copy
+Edit
+npm start
+This will launch the web application at http://localhost:3000.
+
+Mobile App
+The mobile app is built using React Native, which allows the platform to be accessible on both Android and iOS devices. It provides similar functionality as the web app but with a mobile-optimized interface.
+
+Directory Structure
+App.js: The main entry point for the React Native app.
+
+components/: Contains shared components used across the mobile app.
+
+Login.js: Allows users to log into their accounts.
+Signup.js: Allows new users to sign up.
+Home.js: Displays the input form for symptoms to generate medicine recommendations.
+Results.js: Shows the recommended medicines based on user input.
+package.json: This file lists all Node.js dependencies required for React Native development.
+
+README.md (Mobile App): Documentation for setting up and running the React Native mobile app.
+
+Setup
+Navigate to the mobile-app directory:
+
+bash
+Copy
+Edit
+cd mobile-app
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the app for Android or iOS:
+
+For iOS:
+bash
+Copy
+Edit
+npx react-native run-ios
+For Android:
+bash
+Copy
+Edit
+npx react-native run-android
+Docker Setup
+To run the backend and database using Docker, follow these steps to containerize the application.
+
+Dockerfile: This file contains instructions to build the Docker image for the backend API. It specifies the Python environment, dependencies, and how to run the Flask app.
+
+docker-compose.yml: The Docker Compose file allows you to run the backend and database in separate containers. It defines the services required to run the backend and the SQLite database.
+
+Setup
+Build the Docker images:
+
+bash
+Copy
+Edit
+docker-compose build
+Start the Docker containers:
+
+bash
+Copy
+Edit
+docker-compose up
+This will start the backend API and database in separate containers. The backend will be accessible at http://localhost:5000.
+
+How to Run
+Follow these steps to set up the project and run the full stack locally:
+
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/thenishanraj/medicine-app.git
+cd medicine-app
+2. Backend Setup
+Navigate to the backend directory:
+
+bash
+Copy
+Edit
+cd backend
+Install Python dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Train the model:
+
+bash
+Copy
+Edit
+python train_model.py
+Run the Flask app:
+
+bash
+Copy
+Edit
+python app.py
+3. Frontend Setup
+Navigate to the frontend directory:
+
+bash
+Copy
+Edit
+cd frontend
+Install Node.js dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the React app:
+
+bash
+Copy
+Edit
+npm start
+4. Mobile App Setup
+Navigate to the mobile-app directory:
+
+bash
+Copy
+Edit
+cd mobile-app
+Install React Native dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the app for Android or iOS as mentioned above.
+
+5. Docker Setup (Optional)
+If you prefer using Docker:
+
+bash
+Copy
+Edit
+docker-compose up
+This will run the backend and database in separate Docker containers.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
