@@ -42,8 +42,6 @@ The backend is built using **Flask**, a lightweight Python framework. It include
    git clone <repo_url>
    cd medicine-app/backend
 
-## Backend (continued)
-
 - **app.py**: This is the main Flask application file that handles API requests. It includes routes for user authentication, managing patient records, and recommending medicines using the trained ML model.
   
 - **train_model.py**: This script trains the machine learning model using patient data and saves it as `medicine_model.pkl`. The model predicts recommended medicines based on user input.
