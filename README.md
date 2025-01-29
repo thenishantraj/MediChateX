@@ -92,8 +92,11 @@ The frontend is a **React.js** web application that provides a user-friendly int
 
 This markdown structure includes all relevant information, proper code formatting, and clear steps for setting up the project. It will display well in the `README.md` file when rendered on platforms like GitHub.
 
-## Project Stucture
 
+
+## Directory Structure
+
+```bash
 medicine-app/
 ├── backend/                   # Backend (Flask-based API server)
 │   ├── app.py                 # Main Flask backend for API endpoints
