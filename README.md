@@ -1,7 +1,7 @@
-# Medicine App
+# MediChateX
 ## (AI-Powered Personalized Medicine Recommendation System)
 
-The **Medicine App** is a full-stack application designed to manage **medicine prescriptions**, **patient data**, and **ML-powered predictions**. It consists of:
+The **MediChateX** is a full-stack application designed to manage **medicine prescriptions**, **patient data**, and **ML-powered predictions**. It consists of:
 - A **Flask backend** for handling API requests, integrating machine learning models, and managing patient data.
 - A **React.js frontend** for the web, providing a user-friendly interface to interact with the backend.
 - A **React Native mobile app** that allows users to access the platform from their mobile devices.
